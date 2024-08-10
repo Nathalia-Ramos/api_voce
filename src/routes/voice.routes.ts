@@ -2,7 +2,6 @@
 import { Request, Response, Router } from "express";
 import { voiceController } from "../useCases/voice";
 
-
 const voiceRoute = Router();
 
 voiceRoute.post("/v1/calls",async (request: Request, response: Response) => {
